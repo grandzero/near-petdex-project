@@ -110,3 +110,6 @@ NEAR_ENV=mainnet near call nearpetdex.grandzero.near addTreatment '{"id":PET_ID,
 - desc: <string> Details and result of vaccinations
 - clinicId: <u32> Clinic unique id
 - vetId: <u32> Vet unique id
+```jsx
+NEAR_ENV=mainnet near call nearpetdex.grandzero.near addVax '{"petid": PET_ID, "type": 2, "name":"Parasite Vax", "desc": "Internal parasite vax", "clinicId": CLINIC_ID, "vetId": VET_ID}' --accountId grandzero.near
+```
