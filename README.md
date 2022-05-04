@@ -17,3 +17,5 @@ Vax includes common vax types, name, desc, clinic and vet info.
 Details will be added and frontend for this project will be added while review process.
 
 User can save treatment and vaccination details for pet decentralized using near protocol. By using this dapp, users pets data will be accessible all around the world.
+
+Only pet detail creator can add treatment or vaccination info. Other wallets are not allowed to add or modify the pet info.
