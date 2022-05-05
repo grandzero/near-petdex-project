@@ -1,6 +1,8 @@
 # near-petdex-project
 Pet treatment and vaccination tracking dapp with near protocol
 
+## Loom Video
+https://www.loom.com/share/8cb20c37f20647f2a2a885507b6026ba
 
 In this project there are 5 classes. Projects purpose is tracking pet vaccinations accessible and decentralized.
 

@@ -115,6 +115,8 @@ export class PetDetails {
 
 
   static findByIdAndDelete(id: u32): void {
+    const petdetail = this.findById(id);
+    assert(petdetail.owner == Context.predecessor, "Only pet owner can add vaccination info");
     petDetails.delete(id);
   }
 }
