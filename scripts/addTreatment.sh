@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+NEAR_ENV=mainnet near call $CONTRACT addTreatment '{"id":'$PET_ID', "name":"Regular Check", "desc":"Fody is healthy", "clinicId":1432540413, "vetId": 1118092212}' --accountId $BENEFICIARY
